@@ -70,6 +70,7 @@ public class ListaAlunosActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
+        ///ola
         super.onResume();
         carregarLista();
     }
