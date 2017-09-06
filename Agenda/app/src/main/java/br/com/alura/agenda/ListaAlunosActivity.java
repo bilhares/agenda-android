@@ -151,6 +151,14 @@ public class ListaAlunosActivity extends AppCompatActivity {
             case R.id.menu_enviar_notas:
                 new EnviaAlunosTask(this).execute();
                 break;
+            case R.id.menu_baixar_provas:
+                Intent irParaProvas = new Intent(this, ProvasActivity.class);
+                startActivity(irParaProvas);
+                break;
+            case R.id.menu_mapa:
+                Intent irMapa = new Intent(this, MapsActivity.class);
+                startActivity(irMapa);
+                break;
         }
 
         return super.onOptionsItemSelected(item);
