@@ -1,0 +1,16 @@
+{
+  "list":[
+    {
+      "aluno":[
+        {
+          "id":"1",
+          "nome":"Felipe",
+          "endereco":"Rua Bela Cintra",
+          "telefone":"67 991792212",
+          "site":"www.google.com",
+          "nota":"10"
+        }
+      ]
+    }
+  ]
+}
